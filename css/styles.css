@@ -121,6 +121,11 @@ align-items: center;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.list-nav-link {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .list-nav-link:hover,
 .list-nav-link:focus {
     color:var(--brand-color);
@@ -135,6 +140,11 @@ align-items: center;
 }
 .contacts-mail{
     margin-right: 30px;
+}
+.contacts-link-mail, .contacts-link-tel {
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-link-mail:hover,   
 .contacts-link-mail:focus, 
@@ -332,6 +342,10 @@ align-items: center;
     height: 44px;
     background-color: transparent;
     border-radius: 50%;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-social-list-link:hover,
 .team-social-list-link:focus {
@@ -345,6 +359,10 @@ align-items: center;
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);    
 }
 
 .section-title {
